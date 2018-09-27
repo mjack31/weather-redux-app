@@ -12,6 +12,7 @@ class SearchBar extends Component {
     }
   }
 
+  //input change event
   onInputChange = (event) => {
     console.log(event.target.value)
     this.setState({
@@ -19,6 +20,7 @@ class SearchBar extends Component {
     })
   }
 
+  //submit event
   onSubmit = (event) => {
     event.preventDefault();
     this.props.fetchWeather(this.state.term);
