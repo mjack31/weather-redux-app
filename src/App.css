@@ -26,3 +26,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* Custom styles */
+svg {
+  height: 180px;
+}
+
+td, th {
+  vertical-align: middle !important;
+}
